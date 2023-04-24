@@ -89,9 +89,9 @@ var editTask=function(){
 
     var listItem=this.parentNode;
 
-    var editInput=listItem.querySelector('input[type=text]');
-    var label=listItem.querySelector("label");
-    var editBtn=listItem.querySelector(".edit");
+    var editInput=listItem.querySelector('.todo__input');
+    var label=listItem.querySelector(".todo__lable");
+    var editBtn=listItem.querySelector(".button-edit");
     var containsClass=listItem.classList.contains("todo__wrapper-edit");
     //If class of the parent is .editmode
     if(containsClass){
