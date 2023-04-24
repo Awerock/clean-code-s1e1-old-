@@ -74,8 +74,9 @@ button {
 }
 
 /* Heading */
-h3,
-label[for='new-task'] {
+
+.main__title-add,
+.main__title {
     color: #333;
     font-weight: 700;
     font-size: 15px;
@@ -84,7 +85,9 @@ label[for='new-task'] {
     margin: 0;
     text-transform: uppercase;
 }
-input[type="text"] {
+
+.main__input,
+.todo__input {
     margin: 0;
     font-size: 18px;
     line-height: 18px;
@@ -96,7 +99,8 @@ input[type="text"] {
     font-family: Lato, sans-serif;
     color: #888;
 }
-input[type="text"]:focus {
+.main__input:focus,
+.todo__input:focus {
     color: #333;
 }
 
