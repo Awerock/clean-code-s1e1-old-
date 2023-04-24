@@ -148,21 +148,21 @@ button {
 }
 
 /* Completed */
-ul#completed-tasks label {
-    text-decoration: line-through
+#task-completed .todo__lable {
+    text-decoration: line-through;
     color: #888;
 }
 
 /* Edit Task */
-ul li input[type=text] {
+.todo__wrapper .todo__input {
     display:none
 }
 
-ul li.editMode input[type=text] {
+.todo__wrapper.todo__wrapper-edit .todo__input {
     display:inline-block;
     width:224px
 }
 
-ul li.editMode label {
+.todo__wrapper.todo__wrapper-edit .todo__lable {
     display:none;
 }
